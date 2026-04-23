@@ -1,0 +1,17 @@
+# Se crean dos variables: 'edad' y 'estado_civil'
+edad = 30
+estado_civil = 'soltero'
+
+# Se verifica si la persona es mayor o igual a 18 años
+if edad >= 18:
+    # Si es adulto, se evalúa su estado civil
+    if estado_civil == 'casado':
+        # Si está casado, se muestra este mensaje
+        print('Eres un adulto casado.')
+    else:
+        # Si no está casado, se asume que es soltero
+        print('Eres un adulto soltero.')
+else:
+    # Si no es mayor de edad, se muestra este mensaje
+    print('Eres menor de edad.')
+    
